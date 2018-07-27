@@ -6,7 +6,7 @@
 
     <groupId>com.github.pyknic</groupId>
     <artifactId>speedment-slf4j-adapter</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>bundle</packaging>
 
     <name>Speedment to Slf4j Adapter</name>
@@ -195,6 +195,7 @@
                             </execution>
                         </executions>
                     </plugin>
+
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
@@ -208,6 +209,7 @@
                             </execution>
                         </executions>
                     </plugin>
+
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-javadoc-plugin</artifactId>
@@ -225,6 +227,7 @@
                             <excludePackageNames>com.github.pyknic.stiletto.internal</excludePackageNames>
                         </configuration>
                     </plugin>
+
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
@@ -245,6 +248,7 @@
                             <executable>${gpg.executable}</executable>
                         </configuration>
                     </plugin>
+
                     <plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
